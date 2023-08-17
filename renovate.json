@@ -18,6 +18,9 @@
       "enabled": true
     }
   ],
+  "postUpdateOptions": [
+    "gomodTidy"
+  ],
   "labels": [
     "dependencies"
   ],
