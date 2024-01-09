@@ -23,7 +23,7 @@ cloud.google.com/go/storage/internal/apiv2/stubs
 # github.com/AdaLogics/go-fuzz-headers v0.0.0-20221103172237-443f56ff4ba8
 ## explicit; go 1.13
 github.com/AdaLogics/go-fuzz-headers
-# github.com/Azure/azure-sdk-for-go/sdk/azcore v1.6.0
+# github.com/Azure/azure-sdk-for-go/sdk/azcore v1.6.1
 ## explicit; go 1.18
 github.com/Azure/azure-sdk-for-go/sdk/azcore
 github.com/Azure/azure-sdk-for-go/sdk/azcore/cloud
