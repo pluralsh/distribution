@@ -12,7 +12,7 @@ require (
 	github.com/bshuster-repo/logrus-logstash-hook v1.0.0
 	github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c
 	github.com/docker/go-metrics v0.0.1
-	github.com/docker/libtrust v0.0.0-20150114040149-fa567046d9b1
+	github.com/docker/libtrust aabc10ec26b7
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
 	github.com/hashicorp/golang-lru/arc/v2 v2.0.5
