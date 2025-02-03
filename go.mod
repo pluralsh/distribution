@@ -5,8 +5,8 @@ go 1.20
 require (
 	cloud.google.com/go/storage v1.30.1
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20221103172237-443f56ff4ba8
-	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.6.0
-	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.3.0
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.7.1
+	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.3.1
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.0.0
 	github.com/aws/aws-sdk-go v1.44.325
 	github.com/bshuster-repo/logrus-logstash-hook v1.0.0
@@ -24,12 +24,14 @@ require (
 	github.com/redis/go-redis/v9 v9.1.0
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cobra v1.6.1
-	golang.org/x/crypto v0.7.0
+	golang.org/x/crypto v0.12.0
 	golang.org/x/oauth2 v0.6.0
 	google.golang.org/api v0.114.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 	gopkg.in/yaml.v2 v2.4.0
 )
+
+require github.com/golang-jwt/jwt/v5 v5.0.0 // indirect
 
 require (
 	cloud.google.com/go v0.110.0 // indirect
@@ -37,7 +39,7 @@ require (
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	cloud.google.com/go/iam v0.12.0 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/internal v1.3.0 // indirect
-	github.com/AzureAD/microsoft-authentication-library-for-go v1.0.0 // indirect
+	github.com/AzureAD/microsoft-authentication-library-for-go v1.1.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.3 // indirect
@@ -45,7 +47,6 @@ require (
 	github.com/felixge/httpsnoop v1.0.1 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
-	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
@@ -70,9 +71,9 @@ require (
 	go.opentelemetry.io/otel v1.16.0 // indirect
 	go.opentelemetry.io/otel/metric v1.16.0 // indirect
 	go.opentelemetry.io/otel/trace v1.16.0 // indirect
-	golang.org/x/net v0.8.0 // indirect; updated for CVE-2022-27664, CVE-2022-41717
-	golang.org/x/sys v0.8.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/net v0.14.0 // indirect; updated for CVE-2022-27664, CVE-2022-41717
+	golang.org/x/sys v0.11.0 // indirect
+	golang.org/x/text v0.12.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230320184635-7606e756e683 // indirect
